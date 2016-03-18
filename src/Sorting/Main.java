@@ -16,16 +16,16 @@ public class Main {
 		System.out.println("Unsorted Array:");
 		
 		for (int i: unsortedArray) {
-				System.out.print(i + " ");
+			System.out.print(i + " ");
 		}
 		System.out.println();
 		
 		System.out.println("Sorted Array:");
-		BubbleSort.bubbleSort(unsortedArray);
+
+		InsertionSort.insertionSort(unsortedArray);
 		for (int i: unsortedArray) {
-				System.out.print(i + " ");
+			System.out.print(i + " ");
 		}
-		
 		
 	}
 
